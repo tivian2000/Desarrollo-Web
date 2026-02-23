@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta Table</title>
+</head>
+<body>
+
+<!-- TABLA BASICA-->
+    <table style="width:30%">
+
+        <tr>
+              <td><strong></strong></td>
+              <td><strong>HORARIO</strong></td>
+              <td><strong>NOTA</strong></td>
+        </tr>
+
+        <tr>
+            <td>DESARROLLO WEB</td>
+            <td>LUNES - MIERCOLES</td>
+            <td>20</td>
+        </tr>
+            <td>FUNDAMENTOS DE PROGRAMACION</td>
+            <td>LUNES - VIERNES</td>
+            <td>15</td>
+        <tr>
+            <td>COMUNICACION</td>
+            <td>MARTES - JUEVES</td>
+            <td>12</td>
+            <td>Test</td>
+        </tr>
+
+    </table>
+    <br>
+
+
+<!-- TABLA UTILIZANDO COLSPAN-->
+    <table >
+
+        <tr>
+              <td colspan="3">
+                <strong>CURSO</strong>
+            </td>
+              
+        </tr>
+
+        <tr>
+            <td>DESARROLLO WEB</td>
+            <td>LUNES - MIERCOLES</td>
+            <td>20</td>
+        </tr>
+            <td>FUNDAMENTOS DE PROGRAMACION</td>
+            <td>LUNES - VIERNES</td>
+            <td>15</td>
+        <tr>
+            <td>COMUNICACION</td>
+            <td>MARTES - JUEVES</td>
+            <td>12</td>
+        </tr>
+
+    </table>
+    <br>
+
+
+<!-- TABLA UTILIZANDO ROWSPAN- AGRUPAR FILAS-->
+    <table >
+
+        <tr>
+            <td rowspan="3">
+                <strong>UNIDADES DIDACTICAS</strong>
+            </td>
+
+            <td>DESARROLLO WEB</td>
+            
+        </tr>
+
+            <td>FUNDAMENTOS DE PROGRAMACION</td>
+            
+        <tr>
+
+            <td>COMUNICACION</td>
+    
+        </tr>
+
+    </table>
+    <br>
+
+<!-- TABLA UTILIZANDO thead,tfoot,tbody-->
+    <table >
+
+       <thead>
+        <tr>
+            <th>CURSO</th>
+            <th>NOTA</th>
+        </tr>
+       </thead>
+
+       <tfoot>
+            <tr>
+                <td>Nota total</td>
+                <td>18</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+            <tr>
+                <td>DESAROLLO WEB</td>
+                <td>18</td>
+            </tr>
+
+            <tr>
+                <td>Herramientas web</td>
+                <td>15</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <br>
+
+</body>
+</html>
